@@ -6,7 +6,7 @@
 .settings/
 .classpath
 .project
-
+/allure-results/
 
 # Created by https://www.gitignore.io/api/macos,java,windows,intellij,intellij+iml,maven
 
@@ -140,8 +140,7 @@ fabric.properties
 modules.xml
 .idea/misc.xml
 *.ipr
-
-
+*.log
 ### Maven ###
 target/
 pom.xml.tag
