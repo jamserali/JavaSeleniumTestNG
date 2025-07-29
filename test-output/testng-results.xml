@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="33" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-29T12:48:16 IST" name="Suite" finished-at="2025-07-29T12:49:02 IST" duration-ms="45705">
+    <groups>
+      <group name="functional">
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@24c1b2d2]" name="openApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@389b0789]" name="openApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@c667f46]" name="openApp" class="testngTests.DependencyMethods"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@24c1b2d2]" name="openApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.search()[pri:3, instance:testngTests.DependencyMethods@24c1b2d2]" name="search" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.closeApp()[pri:5, instance:testngTests.DependencyMethods@24c1b2d2]" name="closeApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@389b0789]" name="openApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.search()[pri:3, instance:testngTests.DependencyMethods@389b0789]" name="search" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.closeApp()[pri:5, instance:testngTests.DependencyMethods@389b0789]" name="closeApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.openApp()[pri:1, instance:testngTests.DependencyMethods@c667f46]" name="openApp" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.search()[pri:3, instance:testngTests.DependencyMethods@c667f46]" name="search" class="testngTests.DependencyMethods"/>
+        <method signature="DependencyMethods.closeApp()[pri:5, instance:testngTests.DependencyMethods@c667f46]" name="closeApp" class="testngTests.DependencyMethods"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-07-29T12:48:16 IST" name="Test2" finished-at="2025-07-29T12:48:56 IST" duration-ms="39357">
+      <class name="testngTests.DependencyMethods">
+        <test-method signature="openApp()[pri:1, instance:testngTests.DependencyMethods@389b0789]" started-at="2025-07-29T12:48:17 IST" name="openApp" finished-at="2025-07-29T12:48:17 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="search()[pri:3, instance:testngTests.DependencyMethods@389b0789]" started-at="2025-07-29T12:48:41 IST" name="search" finished-at="2025-07-29T12:48:41 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="closeApp()[pri:5, instance:testngTests.DependencyMethods@389b0789]" started-at="2025-07-29T12:48:56 IST" name="closeApp" finished-at="2025-07-29T12:48:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.DependencyMethods -->
+      <class name="testngTests.OrangeHRM2">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testngTests.OrangeHRM2@478db956]" started-at="2025-07-29T12:48:34 IST" name="launchApp" finished-at="2025-07-29T12:48:36 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM2@478db956]" started-at="2025-07-29T12:48:36 IST" name="verifyLogo" finished-at="2025-07-29T12:48:41 IST" duration-ms="5081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM2@478db956]" started-at="2025-07-29T12:48:47 IST" name="loginApp" finished-at="2025-07-29T12:48:52 IST" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testngTests.OrangeHRM2@478db956]" started-at="2025-07-29T12:48:52 IST" name="closeApp" finished-at="2025-07-29T12:48:54 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM2 -->
+      <class name="testngTests.OrangeHRM">
+        <test-method signature="launchApp()[pri:1, instance:testngTests.OrangeHRM@13d9cbf5]" started-at="2025-07-29T12:48:17 IST" name="launchApp" finished-at="2025-07-29T12:48:29 IST" duration-ms="11498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM@13d9cbf5]" started-at="2025-07-29T12:48:29 IST" name="verifyLogo" finished-at="2025-07-29T12:48:34 IST" duration-ms="5084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM@13d9cbf5]" started-at="2025-07-29T12:48:41 IST" name="loginApp" finished-at="2025-07-29T12:48:47 IST" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="closeApp()[pri:4, instance:testngTests.OrangeHRM@13d9cbf5]" started-at="2025-07-29T12:48:54 IST" name="closeApp" finished-at="2025-07-29T12:48:56 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-07-29T12:48:16 IST" name="Test" finished-at="2025-07-29T12:48:59 IST" duration-ms="42622">
+      <class name="testngTests.DependencyMethods">
+        <test-method signature="openApp()[pri:1, instance:testngTests.DependencyMethods@24c1b2d2]" started-at="2025-07-29T12:48:17 IST" name="openApp" finished-at="2025-07-29T12:48:17 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="search()[pri:3, instance:testngTests.DependencyMethods@24c1b2d2]" started-at="2025-07-29T12:48:44 IST" name="search" finished-at="2025-07-29T12:48:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="closeApp()[pri:5, instance:testngTests.DependencyMethods@24c1b2d2]" started-at="2025-07-29T12:48:59 IST" name="closeApp" finished-at="2025-07-29T12:48:59 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.DependencyMethods -->
+      <class name="testngTests.OrangeHRM2">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testngTests.OrangeHRM2@1a5b6f42]" started-at="2025-07-29T12:48:34 IST" name="launchApp" finished-at="2025-07-29T12:48:39 IST" duration-ms="4820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM2@1a5b6f42]" started-at="2025-07-29T12:48:39 IST" name="verifyLogo" finished-at="2025-07-29T12:48:44 IST" duration-ms="5080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM2@1a5b6f42]" started-at="2025-07-29T12:48:50 IST" name="loginApp" finished-at="2025-07-29T12:48:55 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testngTests.OrangeHRM2@1a5b6f42]" started-at="2025-07-29T12:48:55 IST" name="closeApp" finished-at="2025-07-29T12:48:57 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM2 -->
+      <class name="testngTests.OrangeHRM">
+        <test-method signature="launchApp()[pri:1, instance:testngTests.OrangeHRM@23941fb4]" started-at="2025-07-29T12:48:17 IST" name="launchApp" finished-at="2025-07-29T12:48:29 IST" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM@23941fb4]" started-at="2025-07-29T12:48:29 IST" name="verifyLogo" finished-at="2025-07-29T12:48:34 IST" duration-ms="5288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM@23941fb4]" started-at="2025-07-29T12:48:44 IST" name="loginApp" finished-at="2025-07-29T12:48:50 IST" duration-ms="5483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="closeApp()[pri:4, instance:testngTests.OrangeHRM@23941fb4]" started-at="2025-07-29T12:48:57 IST" name="closeApp" finished-at="2025-07-29T12:48:59 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM -->
+    </test> <!-- Test -->
+    <test started-at="2025-07-29T12:48:16 IST" name="Test3" finished-at="2025-07-29T12:49:02 IST" duration-ms="45705">
+      <class name="testngTests.DependencyMethods">
+        <test-method signature="openApp()[pri:1, instance:testngTests.DependencyMethods@c667f46]" started-at="2025-07-29T12:48:17 IST" name="openApp" finished-at="2025-07-29T12:48:17 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="search()[pri:3, instance:testngTests.DependencyMethods@c667f46]" started-at="2025-07-29T12:48:48 IST" name="search" finished-at="2025-07-29T12:48:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="closeApp()[pri:5, instance:testngTests.DependencyMethods@c667f46]" started-at="2025-07-29T12:49:02 IST" name="closeApp" finished-at="2025-07-29T12:49:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.DependencyMethods -->
+      <class name="testngTests.OrangeHRM2">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testngTests.OrangeHRM2@7b50df34]" started-at="2025-07-29T12:48:37 IST" name="launchApp" finished-at="2025-07-29T12:48:42 IST" duration-ms="5369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM2@7b50df34]" started-at="2025-07-29T12:48:42 IST" name="verifyLogo" finished-at="2025-07-29T12:48:48 IST" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM2@7b50df34]" started-at="2025-07-29T12:48:53 IST" name="loginApp" finished-at="2025-07-29T12:48:59 IST" duration-ms="5555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testngTests.OrangeHRM2@7b50df34]" started-at="2025-07-29T12:48:59 IST" name="closeApp" finished-at="2025-07-29T12:49:00 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM2 -->
+      <class name="testngTests.OrangeHRM">
+        <test-method signature="launchApp()[pri:1, instance:testngTests.OrangeHRM@51bd8b5c]" started-at="2025-07-29T12:48:17 IST" name="launchApp" finished-at="2025-07-29T12:48:32 IST" duration-ms="14941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLogo()[pri:2, instance:testngTests.OrangeHRM@51bd8b5c]" started-at="2025-07-29T12:48:32 IST" name="verifyLogo" finished-at="2025-07-29T12:48:37 IST" duration-ms="5074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method signature="loginApp()[pri:3, instance:testngTests.OrangeHRM@51bd8b5c]" started-at="2025-07-29T12:48:48 IST" name="loginApp" finished-at="2025-07-29T12:48:53 IST" duration-ms="5393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="closeApp()[pri:4, instance:testngTests.OrangeHRM@51bd8b5c]" started-at="2025-07-29T12:49:00 IST" name="closeApp" finished-at="2025-07-29T12:49:02 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testngTests.OrangeHRM -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

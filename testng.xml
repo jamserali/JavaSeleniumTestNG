@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="5" parallel="tests">
+
+  <listeners>
+    <listener class-name="testngTests.MyListeners"/>
+     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
+  </listeners>
+
+
+
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngTests.DependencyMethods"/>
+      <class name="testngTests.OrangeHRM"/>
+      <class name="testngTests.OrangeHRM2"/>
+    </classes>
+  </test>
+
+  <test name="Test2">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngTests.DependencyMethods"/>
+      <class name="testngTests.OrangeHRM"/>
+      <class name="testngTests.OrangeHRM2"/>
+    </classes>
+  </test>
+
+  <test name="Test3">
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <exclude name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testngTests.DependencyMethods"/>
+      <class name="testngTests.OrangeHRM"/>
+      <class name="testngTests.OrangeHRM2"/>
+    </classes>
+  </test>
+
+</suite>
